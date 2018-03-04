@@ -80,10 +80,10 @@
         width: 20px;
         height: 20px;
         border-radius: 20px;
-        background: DodgerBlue;
+        background: 08AA0B;
         content: '';
         position: absolute;
-        background: DodgerBlue;
+        background: 08AA0B;
         -webkit-animation: preloader_3_before 1.5s infinite ease-in-out;
         -moz-animation: preloader_3_before 1.5s infinite ease-in-out;
         -ms-animation: preloader_3_before 1.5s infinite ease-in-out;
@@ -94,10 +94,10 @@
         width: 20px;
         height: 20px;
         border-radius: 20px;
-        background: DodgerBlue;
+        background: 08AA0B;
         content: '';
         position: absolute;
-        background: DodgerBlue;
+        background: 08AA0B;
         left: 22px;
         -webkit-animation: preloader_3_after 1.5s infinite ease-in-out;
         -moz-animation: preloader_3_after 1.5s infinite ease-in-out;
@@ -106,13 +106,13 @@
     }
 
 #jpreBar {
-    background-color: #6e9d0f;
-    background-image: -moz-linear-gradient(-45deg, #6e9d0f 0%, #6e9d0f 25%, #f2b600 50%, #f26200 75%, #f12f00 100%);
+    background-color: #94c600;
+    background-image: -moz-linear-gradient(-45deg, #94c600 0%, #94c600 25%, #d0ff44 50%, #aaea25 75%, #74a510 100%);
     background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(255,255,255,0.2)), color-stop(25%, rgba(255,255,255,0.2)), color-stop(25%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0.2)), color-stop(75%, rgba(255,255,255,0.2)), color-stop(75%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
-    background-image: -webkit-linear-gradient(-45deg, #6e9d0f 0%, #6e9d0f 25%, #f2b600 50%, #f26200 75%, #f12f00 100%);
-    background-image: -o-linear-gradient(-45deg, #6e9d0f 0%, #6e9d0f 25%, #f2b600 50%, #f26200 75%, #f12f00 100%);
-    background-image: -ms-linear-gradient(-45deg, #6e9d0f 0%, #6e9d0f 25%, #f2b600 50%, #f26200 75%, #f12f00 100%);
-    background-image: linear-gradient(135deg, #6e9d0f 0%, #6e9d0f 25%, #f2b600 50%, #f26200 75%, #f12f00 100%);
+    background-image: -webkit-linear-gradient(-45deg, #94c600 0%, #94c600 25%, #d0ff44 50%, #aaea25 75%, #74a510 100%);
+    background-image: -o-linear-gradient(-45deg, #94c600 0%, #94c600 25%, #d0ff44 50%, #aaea25 75%, #74a510 100%);
+    background-image: -ms-linear-gradient(-45deg, #94c600 0%, #94c600 25%, #d0ff44 50%, #aaea25 75%, #74a510 100%);
+    background-image: linear-gradient(135deg, #94c600 0%, #94c600 25%, #d0ff44 50%, #aaea25 75%, #74a510 100%);
     animation: progress 2s linear infinite;
     -moz-animation: progress 2s linear infinite;
     -webkit-animation: progress 2s linear infinite;
@@ -308,9 +308,9 @@
     border-top-right-radius: 193px;
     background: -moz-linear-gradient(left, rgba(101, 102, 111, 0.5) 0%, Black 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(101, 102, 111, 0.5)) color-stop(100%, White));
-    background: -webkit-linear-gradient(left, #f2b600 0%, #6e9d0f 100%);
-    background: -o-linear-gradient(left, #f2b600 0%, #6e9d0f 100%);
-    background: linear-gradient(to right, #f2b600 0%, #6e9d0f 100%);
+    background: -webkit-linear-gradient(left, #d0ff44 0%, #94c600 100%);
+    background: -o-linear-gradient(left, #d0ff44 0%, #94c600 100%);
+    background: linear-gradient(to right, #d0ff44 0%, #94c600 100%);
 }
 
 .thefox_bigloader .loader_inner {
@@ -341,16 +341,16 @@
     border-bottom-left-radius: 193px;
     background: -moz-linear-gradient(left, rgba(101, 102, 111, 0.5) 1%, rgba(77, 196, 226, 0) 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(1%, rgba(101, 102, 111, 0.5)), color-stop(100%, rgba(77, 196, 226, 0)));
-    background: -webkit-linear-gradient(left, #f2b600 1%, #f26200 100%);
-    background: -o-linear-gradient(left, #f2b600 1%, #f26200 100%);
-    background: -ms-linear-gradient(left, #f2b600 1%, #f26200 100%);
-    background: linear-gradient(to right, #f2b600 1%, #f26200 100%);
+    background: -webkit-linear-gradient(left, #d0ff44 1%, #aaea25 100%);
+    background: -o-linear-gradient(left, #d0ff44 1%, black 100%);
+    background: -ms-linear-gradient(left, #d0ff44 1%, black 100%);
+    background: linear-gradient(to right, #d0ff44 1%, black 100%);
 }
 
 .thefox_bigloader .loader_button {
     width: 20px;
     height: 20px;
-    background: #6e9d0f;
+    background: #94c600;
     border: 5px solid #fff;
     box-shadow: 0 0 5px 0px rgba(0,0,0,0.2);
     position: absolute;
@@ -530,7 +530,7 @@
     width: auto;
     border-radius: 3px;
     color: #fff;
-    background: DodgerBlue;
+    background: 08AA0B;
     cursor: pointer;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
