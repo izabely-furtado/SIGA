@@ -136,10 +136,10 @@ body.dotted                {background:url('data:image/png;base64,iVBORw0KGgoAAA
 .dark    	             {color:#fff;/*background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAFklEQVQImWOwsrL6z8DAgI4xBCgVBAA8uxmWctM4ogAAAABJRU5ErkJggg==');*/}
 .bg-black { background-color:#000; }
 
-/*.orange .sticker span    {background:#faa325;}*/
-.orange h2 	   		    {color:#faa325;border-color:#faa325!important;}
-.orange ::-moz-selection {background:#faa325;color:#000;text-shadow:none;}
-.orange ::selection 	    {background:#faa325;color:#000;text-shadow:none;}
+/*.green .sticker span    {background:#faa325;}*/
+.green h2 	   		    {color:#faa325;border-color:#faa325!important;}
+.green ::-moz-selection {background:#faa325;color:#000;text-shadow:none;}
+.green ::selection 	    {background:#faa325;color:#000;text-shadow:none;}
 
 /*.yellow	.sticker span   {background:#fff663;}*/
 .yellow	h2 	    	    {color:#fff663;border-color:#fff663!important;}

@@ -1,0 +1,627 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FAVICON -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="./images/icon.png"
+          type="image/vnd.microsoft.icon">
+    <meta name="description" content="Mangata - Um produto PD Case">
+    <meta name="abstract" content="TRANSMEDIA STORYTELLING INCL. CLASSIC, DYNAMIC, DIGITAL, MOBILE &amp; SOCIAL COMMUNICATION">
+    <meta name="keywords" content="Mangata, PD Case, PD, SOftware, Cobol, Software, Java, Evolução, Adaptação">
+    <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>SIGA - Sistema de Informação e Gestão Agrícola</title>
+
+    <!-- Styles -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
+
+    <!-- Light Gallery -->
+    <link href="assets/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+    <link href="assets/lightgallery/css/lg-transitions.min.css" rel="stylesheet">
+
+    <!-- Alertas e Modais -->
+    <link href="assets/css/sweetalert2.css" rel="stylesheet">
+
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-87808173-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <main>
+        <button type="button" class="btn btn-default btn-theme-green btn-financiamento"><i class="material-icons md-36">attach_money</i></a></button>
+
+        <!-- Popup financiamento -->
+        <div class="popup-financiamento">
+            <div class="popup-inner">
+                <div class="popup-title"><a href="javascript:"><h2>Notificações<span>Alertas</span></h2><i class="material-icons">add</i></a></div>
+                <div class="popup-content">
+                    <form>
+                        <button type="submit" class="btn btn-default btn-theme-green btn-block">Sucessos</button>
+                        <button type="submit" class="btn btn-default btn-theme-blue btn-block">Informações</button>
+                        <button type="submit" class="btn btn-default btn-theme-yellow btn-block">Alertas</button>
+                        <button type="submit" class="btn btn-default btn-theme-red btn-block">Problemas</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Destaque -->
+        <div class="container-full container-header-inner">
+
+            <header>
+                <div class="container">
+                    <div class="bar-search">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <a href="./index.html"><img src="assets/img/logomarca-siga-header.png" /></a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="group-search">
+                                    <select class="form-control">
+                                        <option>Troque de viveiro...</option>
+                                        <option>Viveiro 1</option>
+                                        <option>Viveiro 2</option>
+                                        <option>Viveiro 3</option>
+                                    </select>
+                                    <button type="submit" class="btn-search"><i class="material-icons md-24">search</i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <div class="container-fluid nav-siga">
+                <div class="container">
+                    <!-- Chamfros -->
+                    <i class="c-down-right"></i>
+                    <i class="c-top-left"></i>
+                    <i class="c-top-left-opaque"></i>
+                    <i class="c-top-right-opaque"></i>
+                    <!-- ================== -->
+                    <nav class="navbar navbar-default navbar-theme">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <a href="javascript:" class="btn-close"><i class="material-icons md-24">close</i></a>
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Inicial<span class="sr-only">(current)</span></a></li>
+                                <li class="menu-dsk dropdown">
+                                    <a href="#">Cadastro</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="./formulario-completo.html">Formulário - Diagramação</a></li>
+                                        <li><a href="./formularios.html">Formulário - Componentes</a></li>
+                                        <li><a href="./guia-de-estilo.html">Guia de Estilo</a></li>
+                                        <li><a href="#">Item de Submenu</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Registro de Ponto</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Item de Submenu</a></li>
+                                        <li><a href="#">Item de Submenu</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" tabindex="-1">Item de Submenu</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" tabindex="-1">Item de Submenu</a></li>
+                                                <li><a href="#">Item de Submenu</a></li>
+                                                <li><a href="#">Item de Submenu</a></li>
+                                                <li><a href="#">Item de Submenu</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Item de Submenu</a></li>
+                                        <li><a href="#">Item de Submenu</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#">Vendas</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="./acompanhamento-vendas.html">Acompanhamento das Vendas</a></li>
+                                        <li><a href="#">Item de Submenu</a></li>
+                                        <li><a href="#">Item de Submenu</a></li>
+                                        <li><a href="#">Item de Submenu</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Financeiro</a></li>
+                                <li><a href="#">Gerenciamento</a></li>
+                                <li><a href="#">Notificações</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+
+
+            <div class="bgs-header" style="background-image: url(assets/img/bg-internas5.jpg);">
+                <div class="container title-page">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Nome da Seção <small>Descrição da seção</small></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bg-content inner">
+
+
+            <div class="container-fluid">
+                <div class="container content">
+
+                    <div class="row">
+                        <!-- Sidebar Left -->
+                        <div class="col-md-4">
+
+                            <div class="sidebar">
+                                <div class="menu-sidebar-group">
+                                    <button type="button" class="btn btn-link btn-sidebar-menu btn-block"><i class="material-icons md-28">menu</i></button>
+                                    <ul class="list-group menu-sidebar">
+                                        <li class="list-group-item active"><a href="#">Item de menu ativo</a></li>
+                                        <li class="list-group-item"><a href="#">Item de menu</a></li>
+                                        <li class="list-group-item">
+                                            <a href="javascript:">Item com submenu <span class="badge pull-right"><i class="material-icons">chevron_right</i></span></a>
+                                        </li>
+                                        <li class="list-group-item open">
+                                            <a href="javascript:">Item com submenu aberto </a>
+                                            <ul class="dropdown-submenu submenu-sidebar open">
+                                                <li class="active"><a href="#">Item de submenu ativo</a></li>
+                                                <li><a href="#">Item de submenu</a></li>
+                                                <li><a href="#">Item de submenu</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="list-group-item"><a href="#">Item de menu</a></li>
+                                        <li class="list-group-item"><a href="#">Item de menu</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Conteúdo -->
+                        <div class="col-md-8">
+
+                            <div class="content-page">
+                                <!-- Conteúdo de Páginas -->
+                                <h2>Título h2 <small>Subtítulo h2</small></h2>
+                                <h3>Título h3</h3>
+                                <h4>Título h4</h4>
+                                <h5>Título h5</h5>
+                                <h6>Título h6</h6>
+                                <p><b>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit.</b> Morbi commodo quam eget ex tristique elementum. Cras sagittis leo sit amet sollicitudin tristique. <a href="#">In eu posuere tellus</a>. Vestibulum faucibus arcu at scelerisque finibus. Mauris faucibus lacus quis cursus dignissim.</p>
+                                <p><i>Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit.</i></p>
+                                <ul>
+                                    <li>Quisque consectetur sit amet dui</li>
+                                    <li>Quisque consectetur sit</li>
+                                    <li>Quisque consectetur</li>
+                                    <li>Quisque consectetur sit amet</li>
+                                </ul>
+                                <p>Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit.</p>
+                                <ol>
+                                    <li>Quisque consectetur sit amet dui</li>
+                                    <li>Quisque consectetur sit</li>
+                                    <li>Quisque consectetur</li>
+                                    <li>Quisque consectetur sit amet</li>
+                                </ol>
+                                <blockquote>Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. </blockquote>
+
+                                <figure class="img-center"><img src="https://placeholdit.imgix.net/~text?txtsize=75&txt=800%C3%97600&w=800&h=600" class="img-responsive" /><span>Legenda da imagem</span></figure>
+
+                                <figure class="img-side left zoom">
+                                    <a href="https://placeholdit.imgix.net/~text?txtsize=75&txt=800%C3%97600&w=800&h=600" class="item"><i class="material-icons md-18">search</i></a>
+                                    <img src="https://placeholdit.imgix.net/~text?txtsize=75&txt=800%C3%97600&w=800&h=600" class="img-responsive" />
+                                    <span>Legenda da imagem</span>
+                                </figure>
+                                <p>Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit. Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit. Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit.</p>
+                                <figure class="img-side right">
+                                    <img src="https://placeholdit.imgix.net/~text?txtsize=75&txt=800%C3%97600&w=800&h=600" class="img-responsive" />
+                                    <span>Legenda da imagem</span>
+                                </figure>
+                                <p>
+                                    Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit. Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit. Vestibulum a felis tincidunt, pharetra dolor eget, congue dui. Donec porta enim dolor, quis viverra lacus iaculis vitae. Quisque consectetur sit amet dui sit amet posuere. Nunc blandit tempor dui, eget blandit nibh. Ut id sollicitudin velit.
+                                </p>
+
+                                <br /><br />
+
+                                <!-- Componentes -->
+                                <h2>Componentes</h2>
+                                <!-- Alerta Sucesso -->
+                                <div class="alert alert-success alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <strong>Sucesso!</strong> Usar para mensagens de sucesso.
+                                </div>
+                                <!-- Alerta Error -->
+                                <div class="alert alert-danger alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <strong>Erro!</strong> Usar para mensagens de erro.
+                                </div>
+                                <!-- Alerta -->
+                                <div class="alert alert-warning alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <strong>Atenção!</strong> Usar para mensagens de alerta.
+                                </div>
+                                <!-- Alerta Informação -->
+                                <div class="alert alert-info alert-dismissible" role="alert">
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <strong>Informação!</strong> Usar para mensagens informativas.
+                                </div>
+
+                                <br /><br />
+
+                                <!-- Abas -->
+                                <div class="abas">
+                                    <!-- Links Abas -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#primeira" aria-controls="primeira" role="tab" data-toggle="tab">Primeira</a></li>
+                                        <li role="presentation"><a href="#segunda" aria-controls="segunda" role="tab" data-toggle="tab">Segunda</a></li>
+                                        <li role="presentation"><a href="#terceira" aria-controls="terceira" role="tab" data-toggle="tab">Terceira</a></li>
+                                    </ul>
+                                    <!--  Paineis Abas -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="primeira">Primeira aba selecionada...</div>
+                                        <div role="tabpanel" class="tab-pane" id="segunda">Segunda aba selecionada...</div>
+                                        <div role="tabpanel" class="tab-pane" id="terceira">Terceira aba selecionada...</div>
+                                    </div>
+                                </div>
+
+                                <!-- Acordion -->
+                                <div class="acordions">
+
+                                    <div class="panel-group accordion" id="accordion" role="tablist" aria-multiselectable="true">
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headacordion1">
+                                                <div class="panel-title">
+
+                                                    <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#acordion1">
+                                                        Acordion 1
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div id="acordion1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headacordion1">
+                                                <div class="panel-body">
+                                                    Conteúdo do acordion 1
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headacordion2">
+                                                <div class="panel-title">
+                                                    <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#acordion2">
+                                                        Acordion 2
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div id="acordion2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headacordion2">
+                                                <div class="panel-body">
+                                                    Conteúdo do acordion 2
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headacordion3">
+                                                <div class="panel-title">
+                                                    <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#acordion3">
+                                                        Acordion 3
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div id="acordion3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headacordion3">
+                                                <div class="panel-body">
+                                                    Conteúdo do acordion 3
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Tabelas -->
+
+
+
+                                <div class="tabelas table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <br />
+                                <div class="tabelas table-responsive">
+                                    <table class="table table-striped table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <br />
+                                <div class="tabelas table-responsive">
+                                    <table class="table table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>Otto</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- Paginação -->
+
+                                <div class="paginacao centered">
+                                    <nav>
+                                        <ul class="pagination">
+                                            <li class="nav-icon">
+                                                <a href="#" aria-label="Anterior">
+                                                    <i class="material-icons md-18">first_page</i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-icon">
+                                                <a href="#" aria-label="Anterior">
+                                                    <i class="material-icons md-18">chevron_left</i>
+                                                </a>
+                                            </li>
+                                            <li><a href="#">48</a></li>
+                                            <li><a href="#">49</a></li>
+                                            <li class="active"><a href="#">50</a></li>
+                                            <li><a href="#">51</a></li>
+                                            <li><a href="#">52</a></li>
+                                            <li class="nav-icon">
+                                                <a href="#" aria-label="Próximo">
+                                                    <i class="material-icons md-18">chevron_right</i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-icon">
+                                                <a href="#" aria-label="Próximo">
+                                                    <i class="material-icons md-18">last_page</i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-1"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rodapé -->
+            <footer>
+
+                <div class="container-fluid footer-primary">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4"><div class="logo-footer"><a href="#"><img src="assets/img/logomarca-siga-header.png" class="img-responsive" /></a></div></div>
+                            <div class="col-md-5">
+                                <p class="footer-address"><span class="text">Endereço XYZ, nº 433 - Centro - Hogwarts, IF - CEP 12345-678</span><a href="tel:(27)3333-4444"><span class="footer-tel"><small>27</small> 3333-4444</span></a><br /></p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="link-group social"><a href="https://twitter.com/siga_es" target="_blank"><i class="flaticon-twitter-logo-button"></i></a> &nbsp; <a href="https://www.facebook.com/sigaonline/" target="_blank"><i class="flaticon-facebook-logo-button"></i></a> &nbsp; <a href="https://www.youtube.com/channel/UCyirkIAl-sa8ifUj149h5_A?sub_confirmation=1" target="_blank"><i class="flaticon-youtube-logotype"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid footer-secondary">
+                    <div class="container">
+
+                        <div class="menu-footer">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <ul>
+                                        <li class="menu-header-footer">Cadastro</li>
+                                        <li><a href="./formulario-completo.html">Formulário - Diagramação</a></li>
+                                        <li><a href="./formularios.html">Formulário - Componentes</a></li>
+                                        <li><a href="./guia-de-estilo.html">Guia de Estilo</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <ul>
+                                        <li class="menu-header-footer">Registro de Ponto</li>
+                                        <li><a href="#">Registro X</a></li>
+                                        <li><a href="#">Registro Y</a></li>
+                                        <li><a href="#">Registro Z</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <ul>
+                                        <li class="menu-header-footer">Vendas</li>
+                                        <li><a href="./acompanhamento-vendas.html">Acompanhamento</a></li>
+                                        <li><a href="#">Vendas Y</a></li>
+                                        <li><a href="#">Vendas Z</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <ul>
+                                        <li class="menu-header-footer">Financeiro</li>
+                                        <li><a href="#">Financeiro X</a></li>
+                                        <li><a href="#">Financeiro Y</a></li>
+                                        <li><a href="#">Financeiro Z</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <ul>
+                                        <li class="menu-header-footer">Gerenciamento</li>
+                                        <li><a href="#">Gerenciamento X</a></li>
+                                        <li><a href="#">Gerenciamento Y</a></li>
+                                        <li><a href="#">Gerenciamento Z</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <ul>
+                                        <li class="menu-header-footer">Notificações</li>
+                                        <li><a href="#">Alerta</a></li>
+                                        <li><a href="#">Informações</a></li>
+                                        <li><a href="#">Problemas</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr />
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span class="text">© 2018 SIGA. Todos os direitos reservados.</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+
+        </div>
+
+    </main>
+
+    <!-- JS's -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- Light Gallery -->
+    <script src="assets/lightgallery/js/jquery.mousewheel.min.js"></script>
+    <script src="assets/lightgallery/js/lightgallery-all.min.js"></script>
+
+    <!-- Mascaras Formulário -->
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/mask.js"></script>
+
+    <!-- Alertas e Modais -->
+    <script src="assets/js/sweetalert2.min.js"></script>
+
+    <!-- Recaptcha Google -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
