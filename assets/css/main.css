@@ -271,10 +271,14 @@ header {
         border-color: #ccc !important;
     }
 
+.white
+{
+    color:White;
+}
 .btn-theme-green,
 .btn-theme-green:focus {
     font-weight: 400;
-    color: white;
+    color: black;
     background-color: #aaea25;
     border-color: #aaea25;
     border-radius: 0 10px 0 10px;
@@ -2697,6 +2701,41 @@ select[multiple] option {
         background-color: transparent;
     }
 
+.marron
+{
+    color:#1d0e05 !important;
+}
+
+.tam22
+{
+    font-size:30px !important;
+}
+
+.viveiroInicio
+{
+    background-color: #ffffffd1 !important;
+    border-radius: 0 10px 0 10px
+}
+
+    
+.viveiro 
+{
+    background-color: black;
+    border-color: White;
+    color:#94c600;
+}
+
+.centro
+{
+    text-align:center;
+}
+.voltarErro 
+{
+    border-color: transparent !important;
+    background: linear-gradient(#aaea25, #94c600, #74a510, #3c763d);
+    color:White;
+    
+}
 
 .entrada {
     margin-left: 3%;
@@ -2706,6 +2745,7 @@ select[multiple] option {
     padding: 1%;
     border-color: transparent !important;
     background: linear-gradient(#aaea25, #94c600, #74a510, #3c763d);
+    color:White;
 }
 
 @media (max-width:768px) {
