@@ -1281,6 +1281,7 @@ footer hr {
         text-decoration: none !important;
         color: #94c600;
         background-color: #fff;
+        font-size: 18px !important;
     }
 
     .menu-sidebar > li.active > a,
@@ -1288,6 +1289,7 @@ footer hr {
     .menu-sidebar > li.open > a {
         color: #fff;
         background-color: #94c600;
+        font-size: 20px !important;
     }
 
     .menu-sidebar > li.active,
@@ -1302,6 +1304,7 @@ footer hr {
     .menu-sidebar > li:first-child a:focus {
         border-top-left-radius: 0;
         border-top-right-radius: 10px;
+        font-size: 20px !important;
     }
 
     .menu-sidebar > li:last-child,
@@ -2698,10 +2701,11 @@ select[multiple] option {
 .entrada {
     margin-left: 3%;
     margin-right: 9%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     width: 20%;
-    padding: 4%;
+    padding: 1%;
     border-color: transparent !important;
+    background: linear-gradient(#aaea25, #94c600, #74a510, #3c763d);
 }
 
 @media (max-width:768px) {
