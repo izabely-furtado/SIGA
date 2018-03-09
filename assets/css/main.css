@@ -2731,7 +2731,6 @@ select[multiple] option {
 }
 .voltarErro 
 {
-    border-color: transparent !important;
     background: linear-gradient(#aaea25, #94c600, #74a510, #3c763d);
     color:White;
     
@@ -2743,7 +2742,6 @@ select[multiple] option {
     margin-bottom: 1%;
     width: 20%;
     padding: 1%;
-    border-color: transparent !important;
     background: linear-gradient(#aaea25, #94c600, #74a510, #3c763d);
     color:White;
 }
