@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>sigaWEB</display-name>
+	<servlet>
+		<servlet-name>Faces Servlet</servlet-name>
+		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Faces Servlet</servlet-name>
+		<url-pattern>*.jsf</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>pages/form/acompanhamento-vendas.xhtml</welcome-file>
+	</welcome-file-list>
+
+
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/pages/error/500.jsf</location>
+	</error-page>
+
+	<security-constraint>
+		<display-name>login page</display-name>
+		<web-resource-collection>
+			<web-resource-name>login</web-resource-name>
+			<url-pattern>/pages/home/home.jsf</url-pattern>
+			<url-pattern>/pages/login/login.jsf</url-pattern>
+		</web-resource-collection>
+	</security-constraint>
+
+
+</web-app>

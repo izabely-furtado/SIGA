@@ -1,0 +1,140 @@
+﻿<?xml version='1.0' encoding='UTF-8' ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml"  
+      xmlns:h="http://java.sun.com/jsf/html"  
+      xmlns:f="http://java.sun.com/jsf/core"  
+      xmlns:ui="http://java.sun.com/jsf/facelets"  
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:a4j="http://richfaces.org/a4j"
+      xmlns:c="http://java.sun.com/jsp/jstl/core" class="js">
+      
+
+<h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="./resources/images/icon.png" type="resources/image/vnd.microsoft.icon"/>
+    <meta name="description" content="Mangata - Um produto PD Case"/>
+    <meta name="abstract" content="TRANSMEDIA STORYTELLING INCL. CLASSIC, DYNAMIC, DIGITAL, MOBILE &amp; SOCIAL COMMUNICATION"/>
+    <meta name="keywords" content="Mangata, PD Case, PD, SOftware, Cobol, Software, Java, Evolução, Adaptação"/>
+    <meta name="viewport" content="user-scalable=0, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>SIGA - Sistema de Informação e Gestão Agrícola</title>
+    <!-- Styles -->
+    <link href="resources/assets/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="resources/assets/css/owl.carousel.css" rel="stylesheet"/>
+    <link href="resources/assets/css/owl.theme.css" rel="stylesheet"/>
+    <link href="resources/assets/css/owl.transitions.css" rel="stylesheet"/>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="resources/assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/assets/css/flaticon.css"/>
+    <link href="resources/assets/css/main.css" rel="stylesheet"/>
+    <!-- Styles -->
+    <link rel="stylesheet" id="style_end-css" href='./resources/css/style_end.css?ver=4.7.3' type='text/css'
+        media="all" />
+    <!-- Scripts -->
+    <![CDATA[   <script type="text/javascript" src="./resources/js/jquery.min.js"></script> ]]>
+    
+    <f:metadata>
+		<f:event listener="#{autenticacaoWebBean.preRenderView}" type="preRenderView" />
+	</f:metadata>
+</h:head>
+<h:body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-4 node-type-full-page i18n-fr"
+    style="margin-right: 0px;">
+    <div id="jpreOverlay" class="dark_loader	 tf_complex_loader">
+        <div id="jpreLoader">
+            <div id="jpreBar">
+            </div>
+        </div>
+        <div class="thefox_bigloader">
+            <div class="thefox_loader_line">
+                <div class="loader_tophalf">
+                </div>
+                <div class="loader_inner">
+                </div>
+                <div class="loader_bottomhalf">
+                </div>
+                <div class="loader_button">
+                </div>
+            </div>
+            <div class="thefox_loader_logo_bg">
+                <center>
+                    <img src="./resources/images/giraffa-entrada2.png" data-pagespeed-url-hash="1864168008" />
+                </center>
+            </div>
+            <center>
+                <div class="thefox_loader_logo">
+                    <img src="./resources/images/giraffa-entrada.png" data-pagespeed-url-hash="1864168008" />
+                </div>
+            </center>
+            <p class="jprePercentage" style="z-index: 2; position: relative; text-align: center;
+                bottom: -87%; color: #ccc"/>
+                <div id="jprePercentage" style="z-index: 5;">
+                    0%
+                </div>
+                <p class="jprePercentage" style="z-index: 2; position: relative; text-align: center;
+                    bottom: -100%; color: black; font-family: monospace;">
+                    Sistema de Informação e Gestão Agrícola</p>
+        </div>
+        <img class="pre_dummy_img" src="./resources/images/loader.gif" data-pagespeed-url-hash="2749754879" />
+    </div>
+    <main>
+        <button type="button" class="btn btn-default btn-theme-green btn-financiamento">
+        		<i class="material-icons md-36">attach_money</i>        		
+        	</button>
+        <h:form>
+        <!-- Destaque -->
+	        <div class="container-full container-destaque">
+	            <div id="destaque" class="owl-carousel owl-theme owl-control-green">
+	                <div class="item" style="background-image: url('resources/assets/img/bg-destaque_2.jpg'); padding-top:13%">
+	
+	                    <div class="container">
+	                        <div class="col-md-3"></div>
+	                        <div class="col-md-6 viveiroInicio">
+	                        <br />
+	                        <center>
+	                            <img src="resources/assets/img/logomarca-siga-header.png" /><br />
+	                            <span style="color: #74a510;">Sistema de Informação e Gestão Agrícola</span>
+	                        </center>
+	                        		<a4j:outputPanel id="painelMensagem" ajaxRendered="true" styleClass="painelMensagem">
+									<ui:include src="/pages/mensagem.xhtml" />
+								</a4j:outputPanel>
+	                            <br />
+	                            <div class="form-group">
+	                                <label>Login:</label>                                
+	                                <h:inputText class="form-control viveiro" value="#{autenticacaoWebBean.credenciais.username}" />
+	                                <br />
+	                                <label>Senha:</label>                                
+	                                <h:inputSecret value="#{autenticacaoWebBean.credenciais.password}" class="form-control viveiro"/>
+	                                <br />                                
+	                                <h:commandButton class="btn btn-default btn-theme-green voltarErro" action="#{autenticacaoWebBean.login()}" value="Avançar" />
+	                                <br />
+	                            </div>
+	                        </div>
+	                        <div class="col-md-3"></div>    
+	                		</div>                
+	            		</div>
+	        		</div>
+	        </div>
+		</h:form>
+    </main>
+    <!-- JS's -->
+    <script src="resources/assets/js/jquery.min.js"></script>
+    <script src="resources/assets/js/bootstrap.min.js"></script>
+    <script src="resources/assets/js/owl.carousel.min.js"></script>
+    <!-- Light Gallery -->
+    <script src="resources/assets/lightgallery/js/lightgallery-all.min.js"></script>
+    <script src="resources/assets/js/main.js"></script>
+    <script type='text/javascript' src='./resources/js/customjs.js?ver=4.7.3'></script>
+    <script type='text/javascript' src='./resources/js/custom_woo_js.js?ver=4.7.3'></script>
+    <script type='text/javascript' src='./resources/js/smoothscroll.js?ver=4.7.3'></script>
+    <div id="map" style="display: none;">
+        <div class="infograph map-container">
+            <img class="loader" src="./resources/images/loader_black.gif" alt=""/>
+        </div>
+    </div>
+</h:body>
+</html>
